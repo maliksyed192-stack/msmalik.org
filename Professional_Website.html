@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohammad Syed Malik | M.S. Malik - Academic, Educator & Poet</title>
+    <meta name="description" content="Official website of Mohammad Syed Malik (M.S. Malik). Educator in English Literature & Grammar, Educational Psychology, Motivational Speaker, Poet, and Social Awareness Advocate.">
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            50: '#f0fdf4',
+                            100: '#dcfce7',
+                            600: '#16a34a',
+                            700: '#15803d',
+                            800: '#166534',
+                            900: '#14532d',
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                        serif: ['Playfair Display', 'serif']
+                    }
+                }
+            }
+        }
+    </script>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,700;1,400&display=swap" rel="stylesheet">
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        .glass-card {
+            background: rgba(255, 255, 255, 0.9);
+            backdrop-filter: blur(10px);
+        }
+        .dark .glass-card {
+            background: rgba(15, 23, 42, 0.85);
+            backdrop-filter: blur(10px);
+        }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-800 dark:bg-slate-950 dark:text-slate-100 font-sans transition-colors duration-300">
+
+    <header class="fixed top-0 left-0 right-0 z-50 bg-white/80 dark:bg-slate-900/80 backdrop-blur-md border-b border-slate-200 dark:border-slate-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+            <a href="#" class="flex items-center space-x-3 group">
+                <div class="w-11 h-11 rounded-xl bg-gradient-to-tr from-emerald-600 to-teal-500 flex items-center justify-center text-white font-serif font-bold text-xl shadow-lg group-hover:scale-105 transition-transform">
+                    M
+                </div>
+                <div>
+                    <span class="font-serif font-bold text-lg tracking-tight block">Mohammad Syed Malik</span>
+                    <span class="text-xs text-emerald-600 dark:text-emerald-400 font-semibold tracking-wider uppercase">msmalik.org.in</span>
+                </div>
+            </a>
+
+            <!-- Desktop Nav Links -->
+            <nav class="hidden md:flex items-center space-x-8 font-medium text-sm">
+                <a href="#about" class="hover:text-emerald-600 dark:hover:text-emerald-400 transition-colors">About</a>
+                <a href="#expertise" class="hover:text-emerald-600 dark:hover:text-emerald-400 transition-colors">Expertise</a>
+                <a href="#poetry" class="hover:text-emerald-600 dark:hover:text-emerald-400 transition-colors">Poetry & Art</a>
+                <a href="#social" class="hover:text-emerald-600 dark:hover:text-emerald-400 transition-colors">Social Impact</a>
+                <a href="#contact" class="hover:text-emerald-600 dark:hover:text-emerald-400 transition-colors">Contact</a>
+            </nav>
+
+            <div class="flex items-center space-x-4">
+                <button id="theme-toggle" aria-label="Toggle dark mode" class="p-2.5 rounded-xl bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300 hover:bg-emerald-50 dark:hover:bg-slate-700 transition-colors">
+                    <i class="fa-solid fa-moon dark:hidden"></i>
+                    <i class="fa-solid fa-sun hidden dark:inline"></i>
+                </button>
+                <a href="#contact" class="hidden sm:inline-flex items-center justify-center px-5 py-2.5 rounded-xl bg-emerald-600 text-white font-medium text-sm hover:bg-emerald-700 shadow-lg shadow-emerald-600/20 transition-all hover:-translate-y-0.5">
+                    Get in Touch
+                </a>
+                <!-- Mobile Menu Button -->
+                <button id="mobile-menu-btn" aria-label="Open menu" class="md:hidden p-2.5 rounded-xl bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300">
+                    <i class="fa-solid fa-bars text-lg"></i>
+                </button>
+            </div>
+        </div>
+
+        <!-- Mobile Dropdown Menu -->
+        <div id="mobile-menu" class="hidden md:hidden bg-white dark:bg-slate-900 border-b border-slate-200 dark:border-slate-800 px-6 py-4 space-y-3 font-medium">
+            <a href="#about" class="block py-2 hover:text-emerald-600">About</a>
+            <a href="#expertise" class="block py-2 hover:text-emerald-600">Expertise</a>
+            <a href="#poetry" class="block py-2 hover:text-emerald-600">Poetry & Art</a>
+            <a href="#social" class="block py-2 hover:text-emerald-600">Social Impact</a>
+            <a href="#contact" class="block py-2 hover:text-emerald-600">Contact</a>
+        </div>
+    </header>
+
+    <section class="pt-32 pb-20 md:pt-44 md:pb-32 relative overflow-hidden bg-gradient-to-b from-emerald-50/50 via-transparent to-transparent dark:from-emerald-950/20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+                <div class="lg:col-span-7 space-y-6 text-center lg:text-left">
+                    <div class="inline-flex items-center space-x-2 px-3.5 py-1.5 rounded-full bg-emerald-100 dark:bg-emerald-900/50 text-emerald-800 dark:text-emerald-300 text-xs font-semibold tracking-wide uppercase">
+                        <i class="fa-solid fa-graduation-cap"></i>
+                        <span>Academic Scholar & Public Intellectual</span>
+                    </div>
+                    <h1 class="font-serif text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight leading-tight">
+                        Empowering Minds Through <span class="text-transparent bg-clip-text bg-gradient-to-r from-emerald-600 to-teal-500">Literature & Psychology</span>
+                    </h1>
+                    <p class="text-lg sm:text-xl text-slate-600 dark:text-slate-300 max-w-2xl mx-auto lg:mx-0 font-light leading-relaxed">
+                        Welcome to the official portal of <strong class="font-semibold text-slate-800 dark:text-slate-100">Mohammad Syed Malik (M.S. Malik)</strong>. Dedicated educator in English Literature and Grammar, passionate motivational speaker, poet, and advocate for positive social change.
+                    </p>
+                    <div class="flex flex-wrap justify-center lg:justify-start gap-4 pt-4">
+                        <a href="#contact" class="px-8 py-3.5 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white font-medium shadow-xl shadow-emerald-600/25 transition-all hover:-translate-y-0.5 flex items-center space-x-2">
+                            <span>Collaborate or Invite</span>
+                            <i class="fa-solid fa-arrow-right text-sm"></i>
+                        </a>
+                        <a href="#expertise" class="px-8 py-3.5 rounded-xl bg-white dark:bg-slate-800 hover:bg-slate-100 dark:hover:bg-slate-700 text-slate-700 dark:text-slate-200 font-medium border border-slate-200 dark:border-slate-700 transition-all">
+                            Explore Expertise
+                        </a>
+                    </div>
+                </div>
+                <div class="lg:col-span-5 flex justify-center">
+                    <div class="relative w-72 h-72 sm:w-80 sm:h-80 lg:w-96 lg:h-96">
+                        <div class="absolute inset-0 bg-gradient-to-tr from-emerald-600 to-teal-400 rounded-3xl rotate-6 opacity-20 blur-2xl"></div>
+                        <div class="relative w-full h-full rounded-3xl overflow-hidden shadow-2xl border-4 border-white dark:border-slate-800 bg-slate-200 dark:bg-slate-800 flex flex-col items-center justify-center p-8 text-center group">
+                            <div class="w-28 h-28 rounded-full bg-emerald-600/10 dark:bg-emerald-400/10 flex items-center justify-center text-emerald-600 dark:text-emerald-400 mb-6 group-hover:scale-110 transition-transform">
+                                <i class="fa-solid fa-feather-pointed text-5xl"></i>
+                            </div>
+                            <h3 class="font-serif font-bold text-2xl text-slate-800 dark:text-white">M.S. Malik</h3>
+                            <p class="text-sm text-emerald-600 dark:text-emerald-400 font-medium mt-1">Educator, Poet & Speaker</p>
+                            <div class="mt-4 flex space-x-3 text-slate-500 dark:text-slate-400">
+                                <span class="text-xs px-2.5 py-1 rounded-md bg-slate-100 dark:bg-slate-700">English Lit</span>
+                                <span class="text-xs px-2.5 py-1 rounded-md bg-slate-100 dark:bg-slate-700">Psychology</span>
+                                <span class="text-xs px-2.5 py-1 rounded-md bg-slate-100 dark:bg-slate-700">Poetry</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="py-20 bg-white dark:bg-slate-900 border-t border-slate-200 dark:border-slate-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="max-w-3xl mx-auto text-center space-y-4 mb-16">
+                <h2 class="text-xs font-semibold tracking-widest text-emerald-600 dark:text-emerald-400 uppercase">Biography & Philosophy</h2>
+                <h3 class="font-serif text-3xl sm:text-4xl font-bold">Bridging Literature, Mind, and Society</h3>
+                <p class="text-slate-600 dark:text-slate-400">A lifelong devotion to language, human behavior, and community enlightenment.</p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="p-8 rounded-2xl bg-slate-50 dark:bg-slate-800/50 border border-slate-100 dark:border-slate-800 space-y-4 hover:shadow-xl transition-shadow">
+                    <div class="w-12 h-12 rounded-xl bg-emerald-600/10 text-emerald-600 dark:text-emerald-400 flex items-center justify-center text-xl">
+                        <i class="fa-solid fa-book-open"></i>
+                    </div>
+                    <h4 class="font-serif font-bold text-xl">Literary Heritage</h4>
+                    <p class="text-slate-600 dark:text-slate-300 text-sm leading-relaxed">
+                        Mastery over English Literature and structural Grammar, cultivating deep critical thinking, aesthetic appreciation, and articulate self-expression among students and scholars.
+                    </p>
+                </div>
+                <div class="p-8 rounded-2xl bg-slate-50 dark:bg-slate-800/50 border border-slate-100 dark:border-slate-800 space-y-4 hover:shadow-xl transition-shadow">
+                    <div class="w-12 h-12 rounded-xl bg-emerald-600/10 text-emerald-600 dark:text-emerald-400 flex items-center justify-center text-xl">
+                        <i class="fa-solid fa-brain"></i>
+                    </div>
+                    <h4 class="font-serif font-bold text-xl">Educational Psychology</h4>
+                    <p class="text-slate-600 dark:text-slate-300 text-sm leading-relaxed">
+                        Applying cognitive principles and psychological insights to modern pedagogy, counseling youth, and unlocking academic and emotional potential.
+                    </p>
+                </div>
+                <div class="p-8 rounded-2xl bg-slate-50 dark:bg-slate-800/50 border border-slate-100 dark:border-slate-800 space-y-4 hover:shadow-xl transition-shadow">
+                    <div class="w-12 h-12 rounded-xl bg-emerald-600/10 text-emerald-600 dark:text-emerald-400 flex items-center justify-center text-xl">
+                        <i class="fa-solid fa-bullhorn"></i>
+                    </div>
+                    <h4 class="font-serif font-bold text-xl">Public Oratory</h4>
+                    <p class="text-slate-600 dark:text-slate-300 text-sm leading-relaxed">
+                        Engaging audiences through powerful motivational speeches, academic lectures, and awareness campaigns on critical social and moral subjects.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="expertise" class="py-20 bg-slate-50 dark:bg-slate-950">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="max-w-3xl mx-auto text-center space-y-4 mb-16">
+                <h2 class="text-xs font-semibold tracking-widest text-emerald-600 dark:text-emerald-400 uppercase">Core Competencies</h2>
+                <h3 class="font-serif text-3xl sm:text-4xl font-bold">Fields of Specialization</h3>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Item 1 -->
+                <div class="bg-white dark:bg-slate-900 p-8 rounded-2xl shadow-sm border border-slate-200/80 dark:border-slate-800 space-y-4">
+                    <div class="flex items-center space-x-4">
+                        <div class="w-10 h-10 rounded-lg bg-emerald-100 dark:bg-emerald-900/50 text-emerald-600 dark:text-emerald-400 flex items-center justify-center">
+                            <i class="fa-solid fa-pen-nib"></i>
+                        </div>
+                        <h4 class="font-serif font-bold text-lg">English Literature</h4>
+                    </div>
+                    <p class="text-slate-600 dark:text-slate-400 text-sm">Comprehensive exploration of classical and modern poetry, prose, drama, and critical literary theories.</p>
+                </div>
+                <!-- Item 2 -->
+                <div class="bg-white dark:bg-slate-900 p-8 rounded-2xl shadow-sm border border-slate-200/80 dark:border-slate-800 space-y-4">
+                    <div class="flex items-center space-x-4">
+                        <div class="w-10 h-10 rounded-lg bg-emerald-100 dark:bg-emerald-900/50 text-emerald-600 dark:text-emerald-400 flex items-center justify-center">
+                            <i class="fa-solid fa-spell-check"></i>
+                        </div>
+                        <h4 class="font-serif font-bold text-lg">Advanced Grammar & Linguistics</h4>
+                    </div>
+                    <p class="text-slate-600 dark:text-slate-400 text-sm">Rigorous command over syntax, phonetics, semantics, and flawless written and spoken English proficiency.</p>
+                </div>
+                <!-- Item 3 -->
+                <div class="bg-white dark:bg-slate-900 p-8 rounded-2xl shadow-sm border border-slate-200/80 dark:border-slate-800 space-y-4">
+                    <div class="flex items-center space-x-4">
+                        <div class="w-10 h-10 rounded-lg bg-emerald-100 dark:bg-emerald-900/50 text-emerald-600 dark:text-emerald-400 flex items-center justify-center">
+                            <i class="fa-solid fa-users-viewfinder"></i>
+                        </div>
+                        <h4 class="font-serif font-bold text-lg">Educational Psychology</h4>
+                    </div>
+                    <p class="text-slate-600 dark:text-slate-400 text-sm">Understanding learning processes, cognitive development, student motivation, and effective psychological teaching methods.</p>
+                </div>
+                <!-- Item 4 -->
+                <div class="bg-white dark:bg-slate-900 p-8 rounded-2xl shadow-sm border border-slate-200/80 dark:border-slate-800 space-y-4">
+                    <div class="flex items-center space-x-4">
+                        <div class="w-10 h-10 rounded-lg bg-emerald-100 dark:bg-emerald-900/50 text-emerald-600 dark:text-emerald-400 flex items-center justify-center">
+                            <i class="fa-solid fa-microphone-lines"></i>
+                        </div>
+                        <h4 class="font-serif font-bold text-lg">Public Speaking & Motivation</h4>
+                    </div>
+                    <p class="text-slate-600 dark:text-slate-400 text-sm">Inspiring student groups, academic seminars, and community gatherings with articulate and persuasive oratory.</p>
+                </div>
+                <!-- Item 5 -->
+                <div class="bg-white dark:bg-slate-900 p-8 rounded-2xl shadow-sm border border-slate-200/80 dark:border-slate-800 space-y-4">
+                    <div class="flex items-center space-x-4">
+                        <div class="w-10 h-10 rounded-lg bg-emerald-100 dark:bg-emerald-900/50 text-emerald-600 dark:text-emerald-400 flex items-center justify-center">
+                            <i class="fa-solid fa-scroll"></i>
+                        </div>
+                        <h4 class="font-serif font-bold text-lg">Poetry & Creative Writing</h4>
+                    </div>
+                    <p class="text-slate-600 dark:text-slate-400 text-sm">Composing evocative verses that reflect human emotion, societal introspection, and philosophical depth.</p>
+                </div>
+                <!-- Item 6 -->
+                <div class="bg-white dark:bg-slate-900 p-8 rounded-2xl shadow-sm border border-slate-200/80 dark:border-slate-800 space-y-4">
+                    <div class="flex items-center space-x-4">
+                        <div class="w-10 h-10 rounded-lg bg-emerald-100 dark:bg-emerald-900/50 text-emerald-600 dark:text-emerald-400 flex items-center justify-center">
+                            <i class="fa-solid fa-hands-holding-child"></i>
+                        </div>
+                        <h4 class="font-serif font-bold text-lg">Social Reform Initiatives</h4>
+                    </div>
+                    <p class="text-slate-600 dark:text-slate-400 text-sm">Active champion of social welfare campaigns, including Nasha Mukt Bharat Abhiyan and youth mentorship programs.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="poetry" class="py-20 bg-white dark:bg-slate-900 border-t border-slate-200 dark:border-slate-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="max-w-3xl mx-auto text-center space-y-4 mb-16">
+                <h2 class="text-xs font-semibold tracking-widest text-emerald-600 dark:text-emerald-400 uppercase">Literary Corner</h2>
+                <h3 class="font-serif text-3xl sm:text-4xl font-bold">Poetic Reflections</h3>
+                <p class="text-slate-600 dark:text-slate-400">Excerpts capturing truth, conscience, and the beauty of written thought.</p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+                <!-- Poem Card 1 -->
+                <div class="p-8 rounded-3xl bg-gradient-to-br from-emerald-50/50 to-teal-50/30 dark:from-slate-800 dark:to-slate-900 border border-emerald-100 dark:border-slate-800 shadow-sm relative overflow-hidden">
+                    <div class="absolute top-4 right-6 text-emerald-600/10 dark:text-emerald-400/10 font-serif text-7xl font-bold">“</div>
+                    <h4 class="font-serif font-bold text-xl mb-4 text-emerald-800 dark:text-emerald-300">The Echo of Awakening</h4>
+                    <p class="font-serif italic text-slate-700 dark:text-slate-300 leading-relaxed space-y-2">
+                        "In chambers where the silent shadows creep,<br>
+                        A quiet verse disturbs the endless sleep.<br>
+                        Not swords nor storms can shake the stubborn ground,<br>
+                        As truth recalled through spoken word is found."
+                    </p>
+                    <div class="mt-6 pt-4 border-t border-emerald-100 dark:border-slate-800 flex justify-between items-center text-xs text-slate-500">
+                        <span>— M.S. Malik</span>
+                        <span class="text-emerald-600 dark:text-emerald-400 font-semibold">Reflective Verse</span>
+                    </div>
+                </div>
+                <!-- Poem Card 2 -->
+                <div class="p-8 rounded-3xl bg-gradient-to-br from-emerald-50/50 to-teal-50/30 dark:from-slate-800 dark:to-slate-900 border border-emerald-100 dark:border-slate-800 shadow-sm relative overflow-hidden">
+                    <div class="absolute top-4 right-6 text-emerald-600/10 dark:text-emerald-400/10 font-serif text-7xl font-bold">“</div>
+                    <h4 class="font-serif font-bold text-xl mb-4 text-emerald-800 dark:text-emerald-300">Guiding Light</h4>
+                    <p class="font-serif italic text-slate-700 dark:text-slate-300 leading-relaxed space-y-2">
+                        "To teach a mind is not to fill a cup,<br>
+                        But kindle flames that lift the spirit up.<br>
+                        Through patience deep and wisdom gently sown,<br>
+                        A noble path in every heart is grown."
+                    </p>
+                    <div class="mt-6 pt-4 border-t border-emerald-100 dark:border-slate-800 flex justify-between items-center text-xs text-slate-500">
+                        <span>— M.S. Malik</span>
+                        <span class="text-emerald-600 dark:text-emerald-400 font-semibold">Pedagogical Poem</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="social" class="py-20 bg-slate-50 dark:bg-slate-950">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="bg-emerald-900 text-white rounded-3xl p-8 sm:p-12 lg:p-16 relative overflow-hidden shadow-2xl">
+                <div class="absolute -right-20 -bottom-20 w-96 h-96 bg-emerald-800/40 rounded-full blur-3xl"></div>
+                <div class="relative z-10 grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+                    <div class="lg:col-span-8 space-y-6">
+                        <div class="inline-flex items-center space-x-2 px-3.5 py-1.5 rounded-full bg-emerald-800 text-emerald-200 text-xs font-semibold tracking-wider uppercase">
+                            <i class="fa-solid fa-heart-pulse"></i>
+                            <span>Community Responsibility</span>
+                        </div>
+                        <h3 class="font-serif text-3xl sm:text-4xl font-bold">Nasha Mukt Bharat & Youth Guidance</h3>
+                        <p class="text-emerald-100 text-base sm:text-lg leading-relaxed font-light">
+                            Actively contributing to social welfare through anti-drug awareness campaigns (Nasha Mukt Bharat Abhiyan), counseling vulnerable youth, and advocating for healthy, purposeful lifestyles anchored in moral values and education.
+                        </p>
+                        <div class="flex flex-wrap gap-4 pt-2">
+                            <div class="flex items-center space-x-2 bg-emerald-800/60 px-4 py-2 rounded-xl text-sm">
+                                <i class="fa-solid fa-check text-emerald-400"></i>
+                                <span>Youth Mentorship</span>
+                            </div>
+                            <div class="flex items-center space-x-2 bg-emerald-800/60 px-4 py-2 rounded-xl text-sm">
+                                <i class="fa-solid fa-check text-emerald-400"></i>
+                                <span>Awareness Seminars</span>
+                            </div>
+                            <div class="flex items-center space-x-2 bg-emerald-800/60 px-4 py-2 rounded-xl text-sm">
+                                <i class="fa-solid fa-check text-emerald-400"></i>
+                                <span>Moral Counseling</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="lg:col-span-4 flex justify-center">
+                        <div class="w-40 h-40 rounded-full bg-emerald-800/80 border-4 border-emerald-600 flex flex-col items-center justify-center text-center p-4 shadow-xl">
+                            <i class="fa-solid fa-shield-heart text-4xl text-emerald-300 mb-2"></i>
+                            <span class="font-serif font-bold text-sm">Healthy Youth, Strong Nation</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-20 bg-white dark:bg-slate-900 border-t border-slate-200 dark:border-slate-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="max-w-3xl mx-auto text-center space-y-4 mb-16">
+                <h2 class="text-xs font-semibold tracking-widest text-emerald-600 dark:text-emerald-400 uppercase">Get in Touch</h2>
+                <h3 class="font-serif text-3xl sm:text-4xl font-bold">Collaborate, Invite & Connect</h3>
+                <p class="text-slate-600 dark:text-slate-400">For lectures, poetry sessions, academic consultations, or social initiatives.</p>
+            </div>
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 max-w-5xl mx-auto">
+                <div class="lg:col-span-5 space-y-6">
+                    <div class="flex items-start space-x-4">
+                        <div class="w-12 h-12 rounded-xl bg-emerald-100 dark:bg-emerald-900/50 text-emerald-600 dark:text-emerald-400 flex items-center justify-center text-lg shrink-0">
+                            <i class="fa-solid fa-globe"></i>
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-base">Official Website</h4>
+                            <p class="text-slate-600 dark:text-slate-400 text-sm">msmalik.org.in</p>
+                        </div>
+                    </div>
+                    <div class="flex items-start space-x-4">
+                        <div class="w-12 h-12 rounded-xl bg-emerald-100 dark:bg-emerald-900/50 text-emerald-600 dark:text-emerald-400 flex items-center justify-center text-lg shrink-0">
+                            <i class="fa-solid fa-envelope"></i>
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-base">Email Inquiry</h4>
+                            <p class="text-slate-600 dark:text-slate-400 text-sm">contact@msmalik.org.in</p>
+                        </div>
+                    </div>
+                    <div class="flex items-start space-x-4">
+                        <div class="w-12 h-12 rounded-xl bg-emerald-100 dark:bg-emerald-900/50 text-emerald-600 dark:text-emerald-400 flex items-center justify-center text-lg shrink-0">
+                            <i class="fa-solid fa-location-dot"></i>
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-base">Location</h4>
+                            <p class="text-slate-600 dark:text-slate-400 text-sm">India</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="lg:col-span-7 bg-slate-50 dark:bg-slate-800/50 p-8 rounded-3xl border border-slate-200 dark:border-slate-800">
+                    <form id="contact-form" onsubmit="handleFormSubmit(event)" class="space-y-4">
+                        <div>
+                            <label class="block text-sm font-medium mb-2">Your Name</label>
+                            <input type="text" required class="w-full px-4 py-3 rounded-xl bg-white dark:bg-slate-900 border border-slate-300 dark:border-slate-700 focus:outline-none focus:ring-2 focus:ring-emerald-600" placeholder="Enter your name">
+                        </div>
+                        <div>
+                            <label class="block text-sm font-medium mb-2">Email Address</label>
+                            <input type="email" required class="w-full px-4 py-3 rounded-xl bg-white dark:bg-slate-900 border border-slate-300 dark:border-slate-700 focus:outline-none focus:ring-2 focus:ring-emerald-600" placeholder="Enter your email">
+                        </div>
+                        <div>
+                            <label class="block text-sm font-medium mb-2">Message or Invitation</label>
+                            <textarea rows="4" required class="w-full px-4 py-3 rounded-xl bg-white dark:bg-slate-900 border border-slate-300 dark:border-slate-700 focus:outline-none focus:ring-2 focus:ring-emerald-600" placeholder="Write your message here..."></textarea>
+                        </div>
+                        <button type="submit" class="w-full py-3.5 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white font-medium shadow-lg shadow-emerald-600/25 transition-all">
+                            Send Message
+                        </button>
+                    </form>
+                    <div id="form-success" class="hidden mt-4 p-4 rounded-xl bg-emerald-100 dark:bg-emerald-900/40 text-emerald-800 dark:text-emerald-300 text-center font-medium">
+                        Thank you! Your message has been sent successfully.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-slate-900 text-slate-400 py-12 border-t border-slate-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between gap-6 text-center sm:text-left">
+            <div>
+                <a href="#" class="font-serif font-bold text-white text-lg block">Mohammad Syed Malik</a>
+                <p class="text-xs text-slate-500 mt-1">© 2026 msmalik.org.in. All rights reserved.</p>
+            </div>
+            <div class="flex space-x-6 text-lg">
+                <a href="#" class="hover:text-emerald-400 transition-colors"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="#" class="hover:text-emerald-400 transition-colors"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="#" class="hover:text-emerald-400 transition-colors"><i class="fa-brands fa-facebook-f"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Dark Mode Toggle
+        const themeToggleBtn = document.getElementById('theme-toggle');
+        const htmlElement = document.documentElement;
+
+        if (localStorage.getItem('theme') === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+            htmlElement.classList.add('dark');
+        } else {
+            htmlElement.classList.remove('dark');
+        }
+
+        themeToggleBtn.addEventListener('click', () => {
+            htmlElement.classList.toggle('dark');
+            if (htmlElement.classList.contains('dark')) {
+                localStorage.setItem('theme', 'dark');
+            } else {
+                localStorage.setItem('theme', 'light');
+            }
+        });
+
+        // Mobile Menu Toggle
+        const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+
+        mobileMenuBtn.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+
+        // Contact Form Submission
+        function handleFormSubmit(event) {
+            event.preventDefault();
+            document.getElementById('contact-form').reset();
+            const successBox = document.getElementById('form-success');
+            successBox.classList.remove('hidden');
+            setTimeout(() => {
+                successBox.classList.add('hidden');
+            }, 5000);
+        }
+    </script>
+</body>
+</html>
